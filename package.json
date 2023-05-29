@@ -1,0 +1,21 @@
+{
+  "name": "gerenciador-tarefas",
+  "version": "1.0.0",
+  "description": "Gerenciador de Tarefas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task",
+    "manager",
+    "todo"
+  ],
+  "author": "Mario Matheus Pombal Rebello",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
