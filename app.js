@@ -1,10 +1,14 @@
 const express = require('express');
 const db = require('./db');
+const cors = require('cors');
+
+
 
 const app = express();
 const router = express.Router();
 
 app.use(express.json());
+app.use(cors());
 app.use(router);
 
 app.get('/', (req, res) => {
